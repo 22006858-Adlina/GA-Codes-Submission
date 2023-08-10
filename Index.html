@@ -1,0 +1,151 @@
+<!--I declare that this code was written by me.
+I will not copy or allow others to copy my code.
+I understand that copying code is considered as plagiarism.
+
+Student Name : Adlina Athirah Binte Yusri 
+Student ID : 22006858 
+Class : E63C 
+Date/Time Last modified : -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Page</title>
+
+  <style>
+    body {
+      background-color: rgb(195, 170, 170);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      color: #333;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 80vh;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .card-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      margin-bottom: 10px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    button[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 100%;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #666;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 20px;
+    }
+
+    nav img {
+      max-width: 200px;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      margin-left: 20px;
+    }
+
+    nav li:first-child {
+      margin-left: 0;
+    }
+
+    nav li a {
+      font-size: 16px;
+      color: #fff;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    nav li a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="Index.html">
+        <img src="AD.png" alt="AD TrustBank Logo">
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="About us.html">About Us</a></li>
+        <li><a href="Index.html">Services</a></li>
+        <li><a href="FAQs.html">FAQs</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <div class="card">
+      <div class="card-content">
+        <h1 class="card-title">Login</h1>
+        <form action="login2.html" method="POST">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+          <button type="submit" class="button">Login</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
